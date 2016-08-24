@@ -1,4 +1,4 @@
-/* bootstrap styles */
+/* bootstrap overrides */
 .no-gutter {
     margin-left: -15px;
     margin-right: -15px;
@@ -35,7 +35,6 @@
         display: none;
     }
 }
-
 .img-circle {
     margin: 20px auto;
     width: $circle;
@@ -43,8 +42,6 @@
     -webkit-box-shadow: 13px 10px 46px -13px rgba(136, 136, 136, 1);
     -moz-box-shadow: 13px 10px 46px -13px rgba(136, 136, 136, 1);
     box-shadow: 13px 10px 46px -13px rgba(136, 136, 136, 1);
-    
-
     @media only screen and (max-width : 768px) {
         width: $small-circle;
         height: $small-circle;

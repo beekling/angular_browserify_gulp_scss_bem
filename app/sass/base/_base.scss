@@ -13,16 +13,13 @@ ul,li{
 input, textarea, button{
   @include border-radius(0px);
 }
-h1, h2, h3, h4, h5 {
-  text-transform: capitalize;
-  font-weight: bolder;
-}  
-h1 {
-  font-size: 50px;
+a{
+  color:$link;
+  &:hover{
+    color:$hover;
+  }
 }
-h2 {
-  font-size: 35px;
-}
-h3 {
-  font-size: 25px;
+nav {
+  background-color: $dark + 1;
+  color: $light - 1;
 }

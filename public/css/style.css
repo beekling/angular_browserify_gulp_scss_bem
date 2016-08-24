@@ -16,19 +16,6 @@ ul, li {
 input, textarea, button {
   border-radius: 0px; }
 
-h1, h2, h3, h4, h5 {
-  text-transform: capitalize;
-  font-weight: bolder; }
-
-h1 {
-  font-size: 50px; }
-
-h2 {
-  font-size: 35px; }
-
-h3 {
-  font-size: 25px; }
-
 a {
   color: #666666; }
   a:hover {
@@ -37,44 +24,6 @@ a {
 nav {
   background-color: #01010d;
   color: #dfdfdf; }
-
-.hero {
-  color: #dedede; }
-
-section.hero {
-  background-color: #777777; }
-section.steps {
-  background-color: #e5e5e5;
-  color: #03030f; }
-section.save {
-  background-color: #c2c2c2;
-  color: #040410; }
-section.strong {
-  background-color: #e4e4e4;
-  color: #050511; }
-section.home {
-  background-color: #c1c1c1;
-  color: #060612; }
-section.features {
-  background-color: #818181;
-  color: #e2e2e2; }
-section.clients {
-  background-color: #bdbdbd;
-  color: #070713; }
-
-.checklist li:before {
-  color: #bac962; }
-
-.client-p {
-  color: #999299; }
-
-footer {
-  background-color: #222222;
-  color: #FFF1FF; }
-
-.copyright-section {
-  background-color: #e3e3e3;
-  color: #080814; }
 
 nav {
   padding: 25px !important; }
@@ -106,7 +55,8 @@ nav {
   height: 500px;
   overflow: hidden;
   padding-top: 0;
-  position: relative; }
+  position: relative;
+  color: #dedede; }
 
 .hero-text {
   bottom: 10%;
@@ -235,7 +185,7 @@ a.btn:hover, .btn:hover, .btn-default:hover, .btn-default:hover, .btn-default:fo
 .shadow {
   box-shadow: 13px 10px 46px -13px #888888; }
 
-/* bootstrap styles */
+/* bootstrap overrides */
 .no-gutter {
   margin-left: -15px;
   margin-right: -15px; }
