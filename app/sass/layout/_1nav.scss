@@ -1,0 +1,25 @@
+nav {
+  padding: 25px !important;
+}
+.slogan {
+  text-align: right;
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 30px;
+}
+@media only screen and (max-width: 760px) {
+  .logo > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  li.slogan {
+    float: none;
+    display: block;
+  }
+  .slogan {
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+  }
+}

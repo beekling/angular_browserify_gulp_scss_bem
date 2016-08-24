@@ -1,0 +1,33 @@
+.features-p {
+  font-size: 24px;
+}
+.features-h3 {
+  font-size: 35px;
+}
+.checklist {
+    li {
+        display: table-row;
+    }
+    li:before {
+        // color: #bac962;
+        content: '\f14a';
+        display: table-cell;
+        font-family: 'FontAwesome';
+        font-size: 40px;
+        padding-right: 10px;
+        text-align: right;
+        position: relative;
+        left: 0;
+    }
+}
+
+@media only screen and (max-width: 745px) {
+    .checklist {
+        li:before {
+            font-size: 20px;
+            padding-right: 10px;
+            text-align: right;
+            position: static;
+        }
+    }
+}

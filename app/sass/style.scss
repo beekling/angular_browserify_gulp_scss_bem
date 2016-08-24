@@ -1,5 +1,23 @@
-$primary-color : red;
+/*Author: Eric Lingbeek*/
+//base (elements and pseudo-classes)
+// (It doesn’t include any class or ID selectors)
+@import 'base/_variables.scss';
+@import 'base/_mixins.scss';
+@import 'base/_base.scss';
+@import 'base/_colors.scss';
 
-h1 {
-  color: $primary-color;
-}
+// layout
+@import 'layout/_1nav.scss';
+@import 'layout/_2hero.scss';
+@import 'layout/_3steps.scss';
+@import 'layout/_4sections.scss';
+@import 'layout/_5features.scss';
+@import 'layout/_6testimonials.scss';
+@import 'layout/_7footer.scss';
+@import 'layout/_8copyright.scss';
+// modules
+@import 'modules/_btn.scss';
+// state
+@import 'state/_effects.scss';
+// vendor overwrites
+@import 'vendor/_bootstrap.scss';
